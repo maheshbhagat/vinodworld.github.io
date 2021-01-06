@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<head>
+<title>OLX</title>
+<style>
+body{
+text-align: center;
+background-image:url("formbck.png");
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+
+.header{
+padding:50px;
+text-align:left;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.submit_ad{
+
+float:right;
+}
+
+.header img{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+
+.link_update a:link, .link_update a:visited {
+    background-color: #FF9100;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link_update a:hover, .link_update a:active {
+    background-color:#CB7E18;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.login {
+    float: right;
+}
+.featured_ads {
+    float: left;
+border-bottom: 1px solid #eee;
+}
+
+.featured_ads table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.featured_ads th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+.featured_ads a:hover{
+width:350;
+height:250;
+}
+em{
+text-align:center;
+font-size:22px;
+}
+
+.categories table {
+    border-collapse: collapse;
+    width: 50%;
+border-bottom: 1px solid #eee;
+}
+
+.categories th, td {
+    text-align: center;
+    padding: 15px;
+}
+.about_us{
+    background: #EEEEEE
+}
+.img-circle{
+border-radius:50%;
+}
+.img-responsive{
+display:block;
+max-width:100%;
+height:auto;
+}
+.img-rounded{
+border-radius: 10px;
+}
+
+
+</style>
+</head>
+<body>
+<div class=link_update>
+<div class=header>
+<div class=submit_ad>
+<a href="">Submit a free ad</a>
+</div>
+<img src="logo.png" alt="OLX logo" width="100" height="100">
+<h3>India's Largest Marketplace</h3>
+</div>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#categories">Categories</a></li>
+  <li><a href="#products">Products</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+</ul>
+<br><br><br>
+<div class=login>
+<br>
+<fieldset>
+<legend>LOGIN</legend>
+<pre>
+<form>
+<label>User ID :</label>
+<input type="text" name="User ID">
+<label>Password :</label>
+<input type="password" name="Password">
+
+<input type="submit" name="Submit" value="Login">
+
+Dont have an account yet ?
+ 
+<a href="register.html">Register Now</a>
+</form>
+</fieldset>
+</div>
+</div>
+<div class=featured_ads>
+<pre><h3><em>FEATURED ADS</em></h3>
+<br><br>
+<table>
+<tr>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+</tr>
+<tr>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+<td><a href="#"><img class="img-rounded" src="sample.png" alt="Sample" width="300" height="200"></img></a></td>
+</tr>
+</table>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div class=categories align=center>
+<h3><em>CATEGORIES</h3></em>
+<br><br>
+<table>
+<tr>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+</tr>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+<td><a href="#"><img class="img-circle img-responsive" src="sample_category.png" alt="Sample" width="50" height="50"</img></a></td>
+<tr>
+</tr>
+</table>
+</div>
+<br><br><br>
+<div class=about_us>
+<h3><em>ABOUT US</em></h3>
+<br><br><br>
+<font size=5px>OLX is a free local classified site. Sell anything from used cars to mobiles, furniture,laptops, clothing and more.<br>
+Submit ads for free.If you want to buy something - here you will find interesting items, cheaper than in the store.<br>
+Start buying and selling in the most easy way on OLX.</font>
+</div>
+<div class=contact_us>
+<br><br><br>
+<h3><em>CONTACT DETAILS</em></h3>
+<br><br><br>
+Project made by:<br><br>
+<em>Kunal Padam-43</em><br>
+<em>Anuj Patil-49</em><br>
+<em>Aradhya Patil-50</em><br>
+</div>
+</body>
+</html>
